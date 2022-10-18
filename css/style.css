@@ -46,7 +46,7 @@ header {
 nav ul {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	gap: 20px;
 }
 nav ul li {
@@ -127,17 +127,19 @@ nav ul li a:visited {
 	line-height: 22px;
 }
 .card {
-	width: 800px;
+	width: 850px;
 	height: 500px;
 	background-color: var(--branco);
 	border-radius: 15px;
-	box-shadow: 20px 20px 30px 5px var(--azul);
 	margin: 30px;
+	/*	
+	box-shadow: 20px 20px 30px 5px var(--azul);
+	*/
 }
-.card:hover {
+/* .card:hover {
 	width: 850px;
 	height: 550px;
-}
+} */
 .card-titulo {
 	width: 120%;
 	position: relative;
@@ -154,21 +156,28 @@ nav ul li a:visited {
 .section01 {
 	position: relative;
 	top: -550px;
-    left: 50px;
+	/* left: 50px; */
 	display: flex;
 }
 .section02 {
 	position: relative;
 	top: -550px;
-    left: 500px;
+	/* left: 500px; */
 	display: flex;
+	justify-content: space-between;
 }
 .section03 {
-	position: relative;
+	position:relative;
 	top: -550px;
-    left: 50px;
+	/* left: 50px; */
 	display: flex;
+	justify-content: space-between;
 }
 .main {
-    background-color:var(--preto);
+	background-color: var(--preto);
+}
+.gif{
+	position:relative;
+	left:-150px;
+	/* background-color: aquamarine; */
 }
