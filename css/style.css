@@ -181,3 +181,11 @@ nav ul li a:visited {
 	left:-150px;
 	/* background-color: aquamarine; */
 }
+
+.corpo-texto {
+	color: var(--verde);
+	font-size: 18px;
+	position: relative;
+	/* left: 500px;
+	top: -600px; */
+}
