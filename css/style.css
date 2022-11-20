@@ -9,9 +9,11 @@
 	--preto: #020027;
 	--branco: #ffffff;
 	--branco30: #ffffff5f;
-	--font-grande: 86.4px;
+	--font-grande: 80px;
 	--font-media: 27px;
 	--font-pequena: 16.2px;
+	--font-card-titulo: 60px;
+	/* --font-card-texto: */
 
 	font-family: "IBM Plex Mono", monospace;
 	font-size: 27px;
@@ -36,12 +38,13 @@ header {
 .logo {
 	width: 150px;
 	height: 150px;
+	margin-right: 90px;
 }
 
 .logo img {
 	width: 70px;
 	display: flex;
-	margin: 0px 0px 0 5px;
+	margin-top: 40px;
 }
 nav ul {
 	display: flex;
@@ -109,15 +112,18 @@ nav ul li a:visited {
 }
 .texto-impactante {
 	color: var(--verde);
+	text-decoration: none;
 	font-size: 86.4px;
 	transform: rotate(-90deg);
 	word-break: break-all;
 	position: relative;
 	left: 500px;
-	top: -600px;
+	top: 30px;
+	padding: 40px;
 }
 .logo {
-	display: flex;
+	 display: flex; 
+	
 }
 .marca {
 	margin-top: 10px;
@@ -140,19 +146,23 @@ nav ul li a:visited {
 	width: 850px;
 	height: 550px;
 } */
-.card-titulo {
-	width: 120%;
+ .card-titulo {
 	position: relative;
-	left: -80px;
+	text-decoration: none;
+	padding: 10px;
 
 	color: var(--rosa);
-	font-size: var(--font-grande);
+	font-size: var(--font-card-titulo);
 	font-weight: bold;
-}
+} 
 .card-texto {
-	margin: 50px;
+	margin: 30px;
 	font-size: var(--font-media);
+
+}.section{
+	background-color: #ffffff09;
 }
+
 .section01 {
 	position: relative;
 	top: -550px;
@@ -182,10 +192,248 @@ nav ul li a:visited {
 	/* background-color: aquamarine; */
 }
 
-.corpo-texto {
+.conteudo{
+    font-size: var(--font-media);
 	color: var(--verde);
-	font-size: 18px;
-	position: relative;
-	/* left: 500px;
-	top: -600px; */
+	padding: 20px;
+}
+
+/* Inicio do GRID materia 1 */
+#imagem-rend{
+    width: 100%;
+}
+#carta{
+     width: 100%; 
+}
+.container{
+     width: 98%;
+    margin: auto auto; 
+    padding: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+    'cabeçalho  cabeçalho'
+    'imagem  texto-lateral'
+    'imagem-2 imagem-2'
+    'texto  texto';
+  
+    
+    
+}
+
+
+
+#cabeçalho{
+    grid-area: cabeçalho;
+    
+	padding: 10px;
+}
+
+#imagem-2{
+    grid-area: imagem-2;
+    
+}
+
+
+#imagem{
+    grid-area: imagem;
+    
+}
+
+#texto-lateral{
+    grid-area: texto-lateral;
+	grid-column-start: 2;
+
+   
+}
+
+#texto{
+    grid-area: texto;
+  
+}
+
+/* Fim do Grid */
+/* Inicio do GRID materia 2  */
+
+#imagem-rend2{
+    width: 55%;
+	margin-left: 21%;
+}
+#carta{
+     width: 100%; 
+}
+.container2{
+     width: 98%;
+    margin: auto auto; 
+    padding: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+    'cabeçalho2  cabeçalho2'
+    'texto-lateral2  texto-lateral2'
+	'imagem2 imagem2'
+	'texto2  texto2'
+    'imagem-22 imagem-22';
+  
+    
+    
+}
+
+.lista-conteudo{
+	margin-left: 50px;
+	font-size: var(--font-media);
+	color: var(--verde);
+}
+
+
+#cabeçalho2{
+    grid-area: cabeçalho2;
+    
+	padding: 10px;
+}
+
+#imagem2{
+    grid-area: imagem2;
+    
+}
+
+#imagem-22{
+	grid-area: imagem-22;
+}
+
+
+#texto-lateral2{
+    grid-area: texto-lateral2;
+	
+
+   
+}
+
+
+#texto2{
+    grid-area: texto2;
+  
+}
+
+/* Fim do grid 2 */
+/* Fim do grid 3 */
+
+#imagem-rend3{
+    width: 95%;
+	margin-left: 2%;
+}
+#carta{
+     width: 100%; 
+}
+.container3{
+     width: 98%;
+    margin: auto auto; 
+    padding: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-areas: 
+    'cabeçalho3  cabeçalho3'
+    'texto-lateral3  texto-lateral3'
+	'imagem3 imagem3'
+	'texto3  texto3'
+    'imagem-23 imagem-23'
+	'texto4 texto4';
+  
+    
+    
+}
+
+.lista-conteudo{
+	margin-left: 50px;
+	font-size: var(--font-media);
+	color: var(--verde);
+}
+
+
+#cabeçalho3{
+    grid-area: cabeçalho3;
+    
+	padding: 10px;
+}
+
+#imagem3{
+    grid-area: imagem3;
+    
+}
+
+#imagem-23{
+	grid-area: imagem-23;
+}
+
+
+#texto-lateral3{
+    grid-area: texto-lateral3;
+	
+
+   
+}
+
+
+#texto3{
+    grid-area: texto3;
+  
+}
+
+#texto4{
+    grid-area: texto4;
+  
+}
+
+
+/* Fim do grid 3 */
+/* Rodapé */
+
+footer{
+	background-color: var(--rosa);
+}
+
+.assinatura{
+	color: var(--branco);
+	font-size: var(--font-media);
+	
+}
+
+#retrato-felipe{
+	display: flex;
+	width: 140px;
+	margin-left: 20px;
+	border: 10px solid var(--azul);
+	border-radius: 10px;
+}
+
+#retrato-charles{
+	display: flex;
+	width: 140px;
+	margin-left: 50px;
+	border: 10px solid var(--azul);
+	border-radius: 10px;
+}
+
+#retrato-leo{
+	display: flex;
+	width: 140px;
+	margin-left: 30px;
+	border: 10px solid var(--azul);
+	border-radius: 10px;
+}
+
+
+.icones{
+	margin: 10px auto 10px;
+	width: 50px;
+	display: flex;
+	
+}
+
+.redatores ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 140px;
+	padding-left: 80px;
+	
 }
