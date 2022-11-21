@@ -96,14 +96,35 @@ nav ul li a:visited {
 	left: -256px;
 }
 
+.itensPesquisa ul{
+	margin-top: 80px;
+	
+	}
+
+.itensPesquisa ul li{
+	list-style-type: none;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #fff;
+	
+
+}
+
+.itensPesquisa ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
 /* ***************   OPÇÕES   *************** */
 .opcoes {
 	width: 100px;
 	justify-content: right;
+
 }
 .opcoes img {
-	width: 60px;
-	margin: 80px 0px 0px 40px;
+	width: 50px;
+	margin: 10px 0px 0px 155px;
 }
 
 /* ***************   BANNER   *************** */
@@ -525,3 +546,5 @@ footer {
 	bottom: 0;
 	background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0) 200%);
 }
+
+
