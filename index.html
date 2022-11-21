@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="keywords" content="cybersecurity, Infosec" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 		<script type="text/javascript" src="js/script.js" defer></script>
 
 		<title>Projeto Ultron</title>
@@ -36,13 +37,41 @@
 			</nav>
 			<div class="pesquisas">
 				<div class="pesquisa">
-					<input type="text" placeholder="pesquisa" />
+					<input type="text"
+					id="entradaPesquisa" 
+					onkeyup="Pesquisa()" placeholder="Pesquisa..." />
 					<img src="./img/🦆 icon _search_.svg" alt="" />
 				</div>
-				<!-- <div class="opcoes">
+				<div class="opcoes">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMaterias" style="cursor:pointer" aria-expanded="true">
+						<span class="navbar-toggler-icon"></span>
+					
+					</button>
 					<img src="./img/🦆 icon _menu hambuger_.png" alt="" />
+				</div>
+				<!-- <div class="navbar-collapse collapse" id="menuMaterias">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">Teste</a>
+
+						</li>
+					</ul>
+
 				</div> -->
 			</div>
+
+			<div class="itensPesquisa">
+				<ul id="listaPesquisa">
+					<li><a href="./subpaginas/materia01.html">Um ataque do grupo Guacamaya</a></li>
+					<li><a href="./subpaginas/materia02.html">Vazamento de dados</a></li>
+				
+					<li><a href="./subpaginas/materia03.html">Crimes cibernéticos: uma análise do cenário atual</a></li>
+					
+				  </ul>
+				
+			</div>
+
+
 		</header>
 		<main>
 			<div class="banner">
