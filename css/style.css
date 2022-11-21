@@ -462,6 +462,7 @@ footer{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 	
+	
 
 }
 
@@ -529,19 +530,17 @@ footer{
 	margin: 50px auto 10px auto;
 	background-color: #ff0759;
 	
-	
-	
-	
-	
-
+	/* display: flex; */
 
 }
 
 .container-wrapper{
     display: flex;
-    width: 100%;
+	/* justify-content: space-between; */
+    /* width: 100%; */
     flex-flow: row nowrap;
     overflow-x: hidden;
+	scroll-behavior: smooth;
 
 }
 
