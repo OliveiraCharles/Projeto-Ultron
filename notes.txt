@@ -1,0 +1,5 @@
+- Arrumar o carrossel       [Charles]  <
+- Estética                  [Charles]
+- Implementar pesquisa      [Opcional]
+- Links do menu             [Felipe]
+- Chamada das matérias      [Charles]
