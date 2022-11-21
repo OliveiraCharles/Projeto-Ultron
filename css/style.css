@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap");
 
+
+
 * {
 	padding: 0;
 	margin: 0;
@@ -322,7 +324,7 @@ nav ul li a:visited {
 }
 
 /* Fim do grid 2 */
-/* Fim do grid 3 */
+/* inicio do grid 3 */
 
 #imagem-rend3{
     width: 95%;
@@ -392,6 +394,11 @@ nav ul li a:visited {
 
 
 /* Fim do grid 3 */
+
+#imagem4{
+	width: 800px;
+	margin-left: 270px;
+}
 /* Rodapé */
 
 footer{
@@ -490,9 +497,10 @@ footer{
 
 .card-carrossel-texto{
     font-size: 15px;
-    width: 250px;
+    width: 100%;
     /* margin: 0, auto; */
     text-align: center;
+	
 }
 
 .card-footer{
@@ -565,7 +573,7 @@ footer{
     background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0) 200%);
 }
 
-
+	
 	
 	
 

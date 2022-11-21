@@ -28,9 +28,9 @@
 			<nav>
 				<div class="menu">
 					<ul>
-						<li><a href="#">destaques</a></li>
-						<li><a href="#">matérias</a></li>
-						<li><a href="#">outros</a></li>
+						<li><a href="#destaques">destaques</a></li>
+						<li><a href="#Carrossel">matérias</a></li>
+						<li><a href="#sobre">Sobre nós</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -48,15 +48,15 @@
 			<div class="banner">
 				<div class="imgg"></div>
 				<div class="texto-impactante">
-					<a href="subpaginas/materia04.html" class="texto-impactante">Brasil lidera ranking <br> de ataques cibernéticos <br> na América Latina</a>
+					<a href="subpaginas/materia04.html" class="texto-impactante" target="_blank">Brasil lidera ranking <br> de ataques cibernéticos <br> na América Latina</a>
 				</div>
 			</div>
 
-			<div class="main">
+			<div class="main" id="materias">
 				<section>
-					<div class="section01">
+					<div class="section01" id="destaques">
 						<div class="card">
-							<a href="./subpaginas/materia01.html"  class="card-titulo">Os hackitivistas Guacamaya e as empresas mineradoras.</a>
+							<a href="./subpaginas/materia01.html"  class="card-titulo" target="_blank">Os hackitivistas Guacamaya e as empresas mineradoras.</a>
 							<p class="card-texto">Guacamaya, nome em espanhol para a ave arara, é o nome que um grupo de hacktivistas adotou como pseudônimo para se identificar quando executa ataques. O grupo Guacamaya declara que tem como objetivo sabotar empresas que exploram recursos naturais na região da América Latina... </p>
 							<div class="card-texto"></div>
 						</div>
@@ -67,7 +67,7 @@
 					<div class="section02">
 						<div class="icone-grande"></div>
 						<div class="card">
-							<div><a href="subpaginas/materia02.html" class="card-titulo">IBM Security publica prejuízos financeiros causados por vazamentos de dados</a></div>
+							<div><a href="subpaginas/materia02.html" class="card-titulo" target="_blank">IBM Security publica prejuízos financeiros causados por vazamentos de dados</a></div>
 							<div class="card-texto">Em seu relatório “Cost of a Data Breach Report” [1], a IBM Security apresenta dados envolvendo os prejuízos financeiros causados por vazamentos de dados e explora quais fatores possuem...</div>
 
 							
@@ -78,7 +78,7 @@
 				<section>
 					<div class="section03">
 						<div class="card">
-							<div class="card-titulo"><a href="../Projeto-Ultron/subpaginas/materia03.html" class="card-titulo"> Crimes cibernéticos: uma análise do cenário atual</a> </div>
+							<div class="card-titulo"><a href="subpaginas/materia03.html" class="card-titulo" target="_blank"> Crimes cibernéticos: uma análise do cenário atual</a> </div>
 							<div class="card-texto">Nos últimos anos – especialmente após o inicio da pandemia, vem se observando um grande aumento de incidentes de crimes cibernéticos, que tem como alvo pessoas, empresas e governos. A Deep Instinct disponibiliza em seu relatório “Cyber Threat Landscape Report” a evolução...</div>
 							<div class="card-texto"></div>
 							<div class="gif"></div>
@@ -93,7 +93,7 @@
 				</section>
 			</div>	
 			<!-- Carrossel -->
-			<div class="container-carrossel">
+			<div class="container-carrossel" id="Carrossel">
 				<button class="arrow-left control" aria-label="Previous image"><img src="../img/seta para esqueda.png" alt="seta-esquerda" class="arrows"></button>
 				<button class="arrow-right control" aria-label="next image"><img src="../img/seta para direita.png" alt="seta-direita" class="arrows"></button>
 				<div class="container-wrapper">
@@ -106,20 +106,20 @@
 							<p class="card-carrossel-texto">Guacamaya, nome em espanhol para a ave arara, é o nome que um grupo de hacktivistas adotou como pseudônimo para se identificar quando executa ataques.</p>
 						</div>
 						<div class="card-footer">
-							<a href="../subpaginas/materia01.html">Ver Mais</a>
+							<a href="../subpaginas/materia01.html" target="_blank">Ver Mais</a>
 						</div>
 					</div>
 
 					<div class="card-carrossel">
 						<div class="card-header">
-							<img src="../img/guacamaya2.jpg" class="card-img">
+							<img src="img/ataques ciberneticos.jpeg" class="card-img">
 						</div>
 						<div class="card-body">
-							<h2 class="card-carrossel-titulo">Os hackitivistas Guacamaya e as empresas mineradoras.</h2>
-							<p class="card-carrossel-texto">Guacamaya, nome em espanhol para a ave arara, é o nome que um grupo de hacktivistas adotou como pseudônimo para se identificar quando executa ataques.</p>
+							<h2 class="card-carrossel-titulo">Brasil lidera ranking de ataques cibernéticos na América Latina</h2>
+							<p class="card-carrossel-texto">O Brasil foi o país da América Latina mais atingido por ataques cibernéticos durante o terceiro trimestre de 2022, de acordo com os dados do último relatório do FortiGuard Labs,</p>
 						</div>
 						<div class="card-footer">
-							<a href="../subpaginas/materia01.html">Ver Mais</a>
+							<a href="subpaginas/materia04.html" target="_blank">Ver Mais</a>
 						</div>
 					</div>
 				 
@@ -132,23 +132,10 @@
 							<p class="card-carrossel-texto">Em seu relatório “Cost of a Data Breach Report” [1], a IBM Security apresenta dados envolvendo os prejuízos financeiros causados por vazamentos de dados e explora quais fatores possuem...</p>
 					</div>
 					<div class="card-footer">
-						<a href="../subpaginas/materia01.html">Ver Mais</a>
+						<a href="subpaginas/materia02.html" target="_blank">Ver Mais</a>
 					</div>
 					 </div>
 
-					 <div class="card-carrossel">
-						<div class="card-header">
-							<img src="../img/imagem-custo-vazamento.png" class="card-img">
-						</div>
-						<div class="card-body">
-							<h2 class="card-carrossel-titulo" id="titulo-carrossel2">IBM Security publica prejuízos financeiros causados por vazamentos de dados.</h2>
-							<p class="card-carrossel-texto">Em seu relatório “Cost of a Data Breach Report” [1], a IBM Security apresenta dados envolvendo os prejuízos financeiros causados por vazamentos de dados e explora quais fatores possuem...</p>
-					</div>
-					<div class="card-footer">
-						<a href="../subpaginas/materia01.html">Ver Mais</a>
-					</div>
-					 </div>
-				 
 					 <div class="card-carrossel">
 						<div class="card-header">
 							<img src="../img/imagem-ataques.png" class="card-img">
@@ -158,7 +145,7 @@
 							<p class="card-carrossel-texto">Nos últimos anos – especialmente após o inicio da pandemia, vem se observando um grande aumento de incidentes de crimes cibernéticos, que tem como alvo pessoas, empresas e governos. A Deep Instinct disponibiliza em seu relatório “Cyber Threat Landscape Report” a evolução...</p>
 						</div>
 						<div class="card-footer">
-							<a href="../subpaginas/materia01.html">Ver Mais</a>
+							<a href="subpaginas/materia03.html" target="_blank">Ver Mais</a>
 						</div>
 
 						
@@ -167,7 +154,7 @@
 		 </div>
 
 		</main>
-		<footer class="redatores">
+		<footer class="redatores" id="sobre">
 			<p class="assinatura" id="sobre-nos">Sobre nós:</p>
 			<br>
 			<ul>
