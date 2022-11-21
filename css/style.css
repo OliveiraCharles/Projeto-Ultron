@@ -508,7 +508,7 @@ footer {
     padding: 15px;
     text-align: center;
 	overflow: hidden;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+	/* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); */
 }
 
 .card-header {
@@ -517,18 +517,6 @@ footer {
 	overflow: hidden;
 }
 
-.card-img {
-	min-width: 100%;
-	width: auto;
-	height: 100%;
-}
-
-.card-body {
-	height: 170px;
-	padding: 15px;
-	text-align: center;
-	overflow: hidden;
-}
 
 .card-carrossel-titulo {
 	font-size: 20px;
