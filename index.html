@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="keywords" content="cybersecurity, Infosec" />
-
 		<link rel="stylesheet" href="./css/style.css" />
+		<script type="text/javascript" src="js/script.js" defer></script>
 
 		<title>Projeto Ultron</title>
 	</head>
@@ -39,9 +39,9 @@
 					<input type="text" placeholder="pesquisa" />
 					<img src="./img/🦆 icon _search_.svg" alt="" />
 				</div>
-				<div class="opcoes">
+				<!-- <div class="opcoes">
 					<img src="./img/🦆 icon _menu hambuger_.png" alt="" />
-				</div>
+				</div> -->
 			</div>
 		</header>
 		<main>
@@ -84,28 +84,91 @@
 							<div class="gif"></div>
 							</div>
 						</div>
+
 						<div class="gif">
-							<img src="./img/gif-anim-1 1.svg" alt="">
+							<img src="./img/gif-anim-1 1.svg" alt="capacete">
 						</div>
 					</div>
 							<img src="./img/🦆 icon _chevron down arrow_.svg" alt="" />
 				</section>
-				<div class="icone-grande"></div>
-				<section>
-					<div class="materia">
-						<div class="materia-titulo"></div>
-						<div class="materia-img"></div>
-						<div class="materia-texto"></div>
+			</div>	
+			<!-- Carrossel -->
+			<div class="container-carrossel">
+				<button class="arrow-left control" aria-label="Previous image"><img src="../img/seta para esqueda.png" alt="seta-esquerda" class="arrows"></button>
+				<button class="arrow-right control" aria-label="next image"><img src="../img/seta para direita.png" alt="seta-direita" class="arrows"></button>
+				<div class="container-wrapper">
+					<div class="card-carrossel current-item">
+						<div class="card-header">
+							<img src="../img/guacamaya2.jpg" class="card-img">
+						</div>
+						<div class="card-body">
+							<h2 class="card-carrossel-titulo">Os hackitivistas Guacamaya e as empresas mineradoras.</h2>
+							<p class="card-carrossel-texto">Guacamaya, nome em espanhol para a ave arara, é o nome que um grupo de hacktivistas adotou como pseudônimo para se identificar quando executa ataques.</p>
+						</div>
+						<div class="card-footer">
+							<a href="../subpaginas/materia01.html">Ver Mais</a>
+						</div>
 					</div>
-				</section>
-				<section>
-					<div class="materia-titulo"></div>
-					<div class="carrossel"></div>
-				</section>
-			</div>
+
+					<div class="card-carrossel">
+						<div class="card-header">
+							<img src="../img/guacamaya2.jpg" class="card-img">
+						</div>
+						<div class="card-body">
+							<h2 class="card-carrossel-titulo">Os hackitivistas Guacamaya e as empresas mineradoras.</h2>
+							<p class="card-carrossel-texto">Guacamaya, nome em espanhol para a ave arara, é o nome que um grupo de hacktivistas adotou como pseudônimo para se identificar quando executa ataques.</p>
+						</div>
+						<div class="card-footer">
+							<a href="../subpaginas/materia01.html">Ver Mais</a>
+						</div>
+					</div>
+				 
+					<div class="card-carrossel">
+						<div class="card-header">
+							<img src="../img/imagem-custo-vazamento.png" class="card-img">
+						</div>
+						<div class="card-body">
+							<h2 class="card-carrossel-titulo" id="titulo-carrossel2">IBM Security publica prejuízos financeiros causados por vazamentos de dados.</h2>
+							<p class="card-carrossel-texto">Em seu relatório “Cost of a Data Breach Report” [1], a IBM Security apresenta dados envolvendo os prejuízos financeiros causados por vazamentos de dados e explora quais fatores possuem...</p>
+					</div>
+					<div class="card-footer">
+						<a href="../subpaginas/materia01.html">Ver Mais</a>
+					</div>
+					 </div>
+
+					 <div class="card-carrossel">
+						<div class="card-header">
+							<img src="../img/imagem-custo-vazamento.png" class="card-img">
+						</div>
+						<div class="card-body">
+							<h2 class="card-carrossel-titulo" id="titulo-carrossel2">IBM Security publica prejuízos financeiros causados por vazamentos de dados.</h2>
+							<p class="card-carrossel-texto">Em seu relatório “Cost of a Data Breach Report” [1], a IBM Security apresenta dados envolvendo os prejuízos financeiros causados por vazamentos de dados e explora quais fatores possuem...</p>
+					</div>
+					<div class="card-footer">
+						<a href="../subpaginas/materia01.html">Ver Mais</a>
+					</div>
+					 </div>
+				 
+					 <div class="card-carrossel">
+						<div class="card-header">
+							<img src="../img/imagem-ataques.png" class="card-img">
+						</div>
+						<div class="card-body">
+							<h2 class="card-carrossel-titulo">Crimes cibernéticos: uma análise do cenário atual</h2>
+							<p class="card-carrossel-texto">Nos últimos anos – especialmente após o inicio da pandemia, vem se observando um grande aumento de incidentes de crimes cibernéticos, que tem como alvo pessoas, empresas e governos. A Deep Instinct disponibiliza em seu relatório “Cyber Threat Landscape Report” a evolução...</p>
+						</div>
+						<div class="card-footer">
+							<a href="../subpaginas/materia01.html">Ver Mais</a>
+						</div>
+
+						
+					 </div>
+			 </div>
+		 </div>
+
 		</main>
 		<footer class="redatores">
-			<p class="assinatura">Sobre nós:</p>
+			<p class="assinatura" id="sobre-nos">Sobre nós:</p>
 			<br>
 			<ul>
 			<li>
