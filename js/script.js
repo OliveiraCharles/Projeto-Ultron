@@ -1,7 +1,7 @@
 const controls = document.querySelectorAll(".control");
 let currentItem = 0;
 const items = document.querySelectorAll(".card-carrossel");
-const maxItems = 4;
+const maxItems=3;
 
 controls.forEach((control) => {
   control.addEventListener("click", (e) => {
@@ -14,11 +14,11 @@ controls.forEach((control) => {
     }
 
     if (currentItem >= maxItems) {
-      currentItem = 0;
+      currentItem = 1;
     }
 
     if (currentItem < 0) {
-      currentItem = maxItems - 1;
+      currentItem = maxItems;
     }
 
          items.forEach((item) => item.classList.remove("current-item"));
