@@ -33,6 +33,7 @@ controls.forEach((control) => {
 });
 
 function Pesquisa(){
+  
   var entrada, filtro, ul, li, a, i, valorTexto;
   entrada = document.getElementById('entradaPesquisa')
 
@@ -41,8 +42,10 @@ function Pesquisa(){
   li = ul.getElementsByTagName('li');
 
   for (i=0; i< li.length; i++) {
+    
     a = li[i].getElementsByTagName("a")[0];
     valorTexto = a.textContent || a.innerText;
+    
     if(valorTexto.toUpperCase().indexOf(filtro) > -1) {
       li[i].style.display = "";
     } else{
