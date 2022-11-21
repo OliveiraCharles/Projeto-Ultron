@@ -108,14 +108,14 @@ nav ul li a:visited {
 	margin-left: 50px;
 	margin-top: 30px;
 	margin-bottom: 15px;
-	color: #ff0759;
+	color: var(--branco);
 	
 
 }
 
 .itensPesquisa ul li a{
 	text-decoration: none;
-	color: #ff0759;
+	color: var(--branco);
 }
 
 /* ***************   OPÇÕES   *************** */
@@ -210,24 +210,49 @@ nav ul li a:visited {
 
 .section01 {
 	position: relative;
-	top: -550px;
+	top: -900px;
 	left: 50px;
 	display: flex;
+	
+	
 }
+
+.section01 .card{
+	background-color: #fff2;
+
+}
+
+.section01 .card-titulo{
+
+}
+
+
+
+
 .section02 {
 	position: relative;
-	top: -550px;
+	top: -800px;
 	/* left: 500px; */
 	display: flex;
 	justify-content: space-between;
 }
 .section03 {
 	position: relative;
-	top: -550px;
+	top: -800px;
 	/* left: 50px; */
 	display: flex;
 	justify-content: space-between;
 }
+
+.section04 {
+	position: relative;
+	top: -800px;
+	/* left: 50px; */
+	display: flex;
+	justify-content: space-between;
+}
+
+
 .main {
 	background-color: var(--preto);
 }
